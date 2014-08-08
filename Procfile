@@ -1,1 +1,1 @@
-runner:  bundle exec bin/snowplow-emr-etl-runner --config config/config.yml --skip shred
+runner: sh -ex runner.sh
