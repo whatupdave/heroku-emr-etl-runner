@@ -36,7 +36,7 @@
     :core_instance_type: <%= ENV['EMR_JOBFLOW_CORE_INSTANCE_TYPE'] || 'm1.small' %>
     :task_instance_count: 0 # Increase to use spot instances
     :task_instance_type: <%= ENV['EMR_JOBFLOW_TASK_INSTANCE_TYPE'] || 'm1.small' %>
-    :task_instance_bid: 0.015 # In USD. Adjust bid, or leave blank for non-spot-priced (i.e. on-demand) task instances
+    :task_instance_bid: 0.20 # In USD. Adjust bid, or leave blank for non-spot-priced (i.e. on-demand) task instances
 :etl:
   :job_name: Snowplow ETL # Give your job a name
   :versions:
